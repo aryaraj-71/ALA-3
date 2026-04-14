@@ -1,0 +1,9 @@
+import calendar
+
+def check_leap_advanced(year):
+    if calendar.isleap(year):
+        return "Leap Year"
+    return "Not Leap Year"
+
+year = 2024
+print(f"Result for {year}: {check_leap_advanced(year)}")
